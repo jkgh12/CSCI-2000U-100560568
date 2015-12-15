@@ -1,0 +1,43 @@
+
+# part (a)
+# How would you print the file classlist.csv to the screen
+# except the two header lines?
+# Enter the relevant Unix command(s) used below.
+
+
+
+
+# part (b)
+# How would you construct a pipeline using the command from part (a)
+# to determine how many distinct students are in this list?
+# Enter the relevant Unix command(s) used below as well as the number
+# of students in the list.
+
+
+
+
+# part (c)
+# How would you sort the list by the second column (i.e., by
+# "First Name")? Which student (provide first and last name) would be
+# at the top of the list? Which student would be at the bottom of the
+# list?
+# Enter the relevant Unix command(s) used below as well as the names
+# of the first and last students in the new list.
+
+
+
+
+# part (d)
+# Construct a Unix pipeline involving these functions to determine
+# how many students have the same first name. Which first names are
+# repeated in the class list?
+# Enter the relevant name(s) and the Unix command(s) below.
+
+
+
+
+# part (f) [BONUS]
+# Construct a Unix pipeline that extracts the last three digits of
+# the student number and the first character of the first name to make
+# a four-character identifier for each student.
+# Enter the relevant Unix command(s) used below.
