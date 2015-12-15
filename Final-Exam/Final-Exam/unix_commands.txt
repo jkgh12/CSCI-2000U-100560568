@@ -4,8 +4,8 @@
 # except the two header lines?
 # Enter the relevant Unix command(s) used below.
 
-
-
+tail -n +3 classlist.csv
+#this will get rid of the titles, which are not the names and id number, meaing first two lines.
 
 # part (b)
 # How would you construct a pipeline using the command from part (a)
@@ -13,7 +13,7 @@
 # Enter the relevant Unix command(s) used below as well as the number
 # of students in the list.
 
-
+tail -n +3 classlist.csv | wc -l
 
 
 # part (c)
@@ -24,7 +24,8 @@
 # Enter the relevant Unix command(s) used below as well as the names
 # of the first and last students in the new list.
 
-
+tail -n +3 classlist.csv | sort -t "," -k 2 
+# the top is Adam Holte and the bottom is Zenia Mowrer
 
 
 # part (d)
